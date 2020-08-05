@@ -13,8 +13,7 @@
   ],
   "eslint.options": {
     "configFile": "./package.json",
-    "useEslintrc": false,
-    "cwd": "./node_modules/my-toolchain"
+    "useEslintrc": false
   },
   "eslint.debug": true,
   "eslint.lintTask.enable": false
