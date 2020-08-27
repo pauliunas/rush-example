@@ -15,9 +15,11 @@
   "devDependencies": {
     "my-toolchain": "^1.0.0",
     "eslint": "6.8.0",
+    "@bentley/eslint-plugin": "1.0.0",
     "typescript": "^3.0.3"
   },
   "eslintConfig": {
-    "extends": "./node_modules/my-toolchain/.eslintrc.js"
+    "plugins":["@bentley"],
+    "extends": "plugin:@bentley/recommended"
   }
 }

@@ -38,6 +38,14 @@
       "reviewCategory": "tools",
       "shouldPublish": true,
       "versionPolicyName": "prerelease-monorepo-lockStep"
+    },
+    
+    {
+      "packageName": "@bentley/eslint-plugin",
+      "projectFolder": "tools/eslint-plugin",
+      "reviewCategory": "tools",
+      "shouldPublish": true,
+      "versionPolicyName": "prerelease-monorepo-lockStep"
     }
   ]
 }

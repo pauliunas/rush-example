@@ -3,6 +3,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
   "packages": [
     {
+      "name": "@bentley/eslint-plugin",
+      "allowedCategories": [ "production" ]
+    },
+    {
       "name": "@typescript-eslint/eslint-plugin",
       "allowedCategories": [ "tools" ]
     },
@@ -27,12 +31,32 @@
       "allowedCategories": [ "tools" ]
     },
     {
+      "name": "eslint-plugin-import",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "eslint-plugin-jsx-a11y",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "eslint-plugin-prefer-arrow",
+      "allowedCategories": [ "tools" ]
+    },
+    {
       "name": "eslint-plugin-react",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "eslint-plugin-react-hooks",
       "allowedCategories": [ "tools" ]
     },
     {
       "name": "my-controls",
       "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "require-dir",
+      "allowedCategories": [ "tools" ]
     },
     {
       "name": "whatwg-fetch",
