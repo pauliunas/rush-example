@@ -15,11 +15,15 @@
   "devDependencies": {
     "my-toolchain": "^1.0.0",
     "eslint": "6.8.0",
+    "eslint-plugin-deprecation": "1.1.0",
     "@bentley/eslint-plugin": "1.0.0",
     "typescript": "^3.0.3"
   },
   "eslintConfig": {
-    "plugins":["@bentley"],
-    "extends": "plugin:@bentley/recommended"
+    "plugins":["@bentley", "deprecation"],
+    "extends": "plugin:@bentley/recommended",
+    "rules": {
+      "deprecation/deprecation": "error"
+    }
   }
 }

@@ -20,8 +20,7 @@ module.exports = {
     "@typescript-eslint",
     "react-hooks",
     "import",
-    "prefer-arrow",
-    "deprecation"
+    "prefer-arrow"
   ],
   rules: {
     "@typescript-eslint/adjacent-overload-signatures": "error",
@@ -216,7 +215,6 @@ module.exports = {
       "off",
       "multi-line"
     ],
-    "deprecation/deprecation": "error",
     "dot-notation": "error",
     "eol-last": "error",
     "eqeqeq": [

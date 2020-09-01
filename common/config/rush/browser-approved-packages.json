@@ -28,7 +28,7 @@
     },
     {
       "name": "eslint-plugin-deprecation",
-      "allowedCategories": [ "tools" ]
+      "allowedCategories": [ "production" ]
     },
     {
       "name": "eslint-plugin-import",
