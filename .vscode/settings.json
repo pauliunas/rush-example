@@ -14,7 +14,8 @@
   ],
   "eslint.options": {
     "configFile": "./package.json",
-    "useEslintrc": false
+    "useEslintrc": false,
+    "resolvePluginsRelativeTo": "./node_modules/@bentley/eslint-plugin"
   },
   "eslint.debug": true,
   "eslint.lintTask.enable": false

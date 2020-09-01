@@ -31,6 +31,10 @@
       "allowedCategories": [ "production" ]
     },
     {
+      "name": "eslint-plugin-eslint-comments",
+      "allowedCategories": [ "production" ]
+    },
+    {
       "name": "eslint-plugin-import",
       "allowedCategories": [ "tools" ]
     },
